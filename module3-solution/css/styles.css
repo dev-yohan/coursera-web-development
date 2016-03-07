@@ -1,3 +1,94 @@
 * {
   font-family: 'Telex', sans-serif;
 }
+
+body { padding-top: 50px; }
+
+.navbar-nav {
+  margin: 0px -15px !important;
+}
+
+.navbar-default {
+  background-color: #EF6C00 !important;
+  color: #FFFFFF !important;
+}
+
+.navbar-brand {
+  color: #FFFFFF !important;
+}
+
+.navbar-default .navbar-toggle .icon-bar {
+    background-color: #FFFFFF !important;
+}
+
+.navbar-default .navbar-toggle {
+    border: none ;
+}
+.navbar-toggle {
+    position: relative;
+    float: right;
+    padding: 9px 10px;
+    margin-top: 8px;
+    margin-right: 15px;
+    margin-bottom: 8px;
+    background-color: #FFAB40;
+    background-image: none;
+    border: 1px solid transparent;
+    border-radius: 4px;
+}
+
+.navbar-default .navbar-toggle:hover, .navbar-default .navbar-toggle:visited, .navbar-default .navbar-toggle:active  {
+  background-color: #212121;
+}
+
+@media (max-width: 767px) {
+  .navbar-collapse {
+    background-color: #FFAB40;
+  } 
+}
+
+.navbar-collapse li {
+  border-bottom: 1px solid #FFFFFF !important;
+  text-align: center;
+}
+
+.navbar-collapse li a {
+  color: #FFFFFF !important;
+}
+
+.navbar-collapse li a:hover {
+  color: #212121 !important;
+}
+
+.content-card {
+  padding:0px 0px 0px 10px;
+  border: 1px solid #e6e6e6;
+  background-color: #f2f2f2;
+  margin-bottom: 30px;
+}
+
+.content-card p {
+  padding:10px;
+}
+
+.cta_top {
+  color: #FFFFFF !important;
+  background-color: #FFAB40;
+  position: relative;
+  left:75%;
+  top:70%;
+  width:25%;
+  font-size: 0.9em;
+  text-align: center;
+  padding:5px;
+}
+
+.cta_top a{
+  color: #FFFFFF !important;
+  
+}
+
+.cta_top a:hover{
+  color: #212121 !important;
+  text-decoration: none;
+}
